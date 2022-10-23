@@ -6,6 +6,7 @@ import tailwind from '../assets/tailwind.png'
 import css from '../assets/css.png'
 import git from '../assets/github.png'
 import firebase from '../assets/firebase.png'
+import mui from '../assets/material-ui-seeklogo.com.svg'
 
 const Skills = () => {
     return (
@@ -36,6 +37,10 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={tailwind} className='w-20 mx-auto' alt="tailwind icon"/>
                         <p className='my-4'>Tailwind</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img src={mui} className='w-20 mx-auto' alt="mui icon"/>
+                        <p className='my-4'>Material UI</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={git} className='w-20 mx-auto' alt="git icon"/>
